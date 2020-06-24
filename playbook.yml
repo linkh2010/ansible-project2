@@ -1,5 +1,5 @@
 ---
-- host: 192.168.148.51
+- hosts: 192.168.148.51
   tasks:
     - name: test
       win_ping:
